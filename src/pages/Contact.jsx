@@ -13,7 +13,7 @@ const Contact = () => {
     <ListItem>Mobile Number: +91-7909077847</ListItem>
     <ListItem>mail : ashishvishwakarma073@gmail.com</ListItem>
     <ListItem>Location : Patia Bhubaneswar odisha 701024</ListItem>
-    <ListItem>Services Location : Bhubaneswar, Cuttack, and Kendrapara </ListItem>
+    <ListItem>Services Location : Bhubaneswar, Cuttack </ListItem>
    </UnorderedList>
 
  <Form/>

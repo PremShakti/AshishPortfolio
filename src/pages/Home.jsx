@@ -25,7 +25,7 @@ const Home = () => {
 
         </Box>
     </SimpleGrid>
-    <Flex bg={'black'}pl={{base:"20px"}} pt={10} pb={10} color={'white'} align={'center'} justify={'center'} gap={5} fontSize={'larger'}><FiPhoneCall  /><Text fontWeight={'bold'}>Call Today For A Free Estimate +91-6370007961 </Text> </Flex>
+    <Flex bg={'black'}pl={{base:"20px"}} pt={10} pb={10} color={'white'} align={'center'} justify={'center'} gap={5} fontSize={'larger'}><FiPhoneCall  /><Text fontWeight={'bold'}>Call Today For A Free Estimate +91-7909077847 </Text> </Flex>
       
     </div>
   )
