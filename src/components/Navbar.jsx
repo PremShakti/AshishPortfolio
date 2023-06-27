@@ -15,12 +15,12 @@ const [list,Setlist]=useState(false)
         Setlist(!list)
     }
   return (
-    <>
-      <Flex w={'100%'} bg={'white'} h={'70px'} align={"center"} justify={'center'} position={'sticky'} top={'0px'} zIndex={'100'}>
+    <Box position={'sticky'} top={0} zIndex={10000} bg={'white'} >
+      <Flex w={'100%'}  h={'70px'} align={"center"} justify={'center'} >
         <Flex w={{base:"95%", lg:'90%'}} h={'60px'} align={'center'} justifyContent={'space-between'}>
             <Text as={'h1'} fontSize={30} fontWeight={'bold'} >CoolBreeze Solutions</Text>
-            <UnorderedList  display={{base:"none",lg:"flex"}} listStyleType={'none'} justifyContent={'center'} alignItems={'center'} gap={10} >
-                <ListItem><Link to="home" spy={true} smooth={true} duration={500}>Home</Link></ListItem>
+            <UnorderedList  display={{base:"none",lg:"flex"}} listStyleType={'none'} justifyContent={'center'} alignItems={'center'} gap={10}  cursor={'pointer'}>
+                <ListItem ><Link to="home" spy={true} smooth={true} duration={500}>Home</Link></ListItem>
                 <ListItem><Link to="about" spy={true} smooth={true} duration={500}>About Us</Link></ListItem>
                 <ListItem><Link to="service" spy={true} smooth={true} duration={500}>Our Services</Link></ListItem>
                 <ListItem><Link to="contact" spy={true} smooth={true} duration={500}>Contact Us</Link></ListItem>
@@ -31,14 +31,14 @@ const [list,Setlist]=useState(false)
           <Box display={{base:"block",lg:"none"}} fontSize={25} onClick={handleListView} ><GiHamburgerMenu/></Box>
         </Flex>
       </Flex>
-      <Box display={{base:'flex',lg:'none'}} flexDirection={'column'} alignItems={'center'} justifyContent={'center'} height={list? "150px" :"0px"} overflow={'hidden'} transition={"height 300ms"}  gap={2} left={0} zIndex={100} >
+      <Box display={{base:'flex',lg:'none'}} flexDirection={'column'} alignItems={'center'} justifyContent={'center'} height={list? "150px" :"0px"} overflow={'hidden'} transition={"height 500ms"}  gap={2} left={0} zIndex={100}  backdropFilter= "blur(8px)" position={'absolute'}  w={'100%'}  color={"green"} fontWeight={'bold'} cursor={'pointer'} >
      
-        <Link to="home" spy={true} smooth={true} duration={500}>Home</Link>
-        <Link to="about" spy={true} smooth={true} duration={500}>About Us</Link>
-        <Link to="service" spy={true} smooth={true} duration={500}>Our Services</Link>
-        <Link to="contact" spy={true} smooth={true} duration={500}>Contact Us</Link>
+        <Link to="home" spy={true} smooth={true} duration={500} onClick={()=>Setlist(!list)}>Home</Link>
+        <Link to="about" spy={true} smooth={true} duration={500} onClick={()=>Setlist(!list)}>About Us</Link>
+        <Link to="service" spy={true} smooth={true} duration={500} onClick={()=>Setlist(!list)}>Our Services</Link>
+        <Link to="contact" spy={true} smooth={true} duration={500} onClick={()=>Setlist(!list)}>Contact Us</Link>
       </Box>
-    </>
+    </Box>
   )
 }
 

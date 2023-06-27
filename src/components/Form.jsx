@@ -1,18 +1,29 @@
 import { FormControl, Input, Textarea,Button } from '@chakra-ui/react'
 import React from 'react'
-
+import '../App.css'
 
 const Form = () => {
   return (
-   <FormControl pt={5} pb={5} boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px'} w={{base:'100%',lg:'40%'}} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'center'} gap={5}>
- 
- <Input  w={"90%"}  type='text' placeholder='Full Name'/>
- <Input w={"90%"}  type='email' placeholder='Email'/>
- <Input  w={"90%"} type='Number' placeholder='Mobile Number'/>
- <Input w={"90%"}  type='text' placeholder='Subject'/>
- <Textarea w={"90%"} type='text' placeholder='Message'></Textarea>
- <Button type='submit' color={"white"} bg={'#61CE70'} >Submit</Button>
-   </FormControl>
+
+
+
+
+<form action="https://formspree.io/f/xwkdeodj" method="POST" className="Cform">
+           <p>DROP A LINE</p>
+                    <input type="text" placeholder="Your Name" name="username" id=""
+                    required
+                    autoComplete="off"
+                    />
+                    <input type="email" name="Email" placeholder="Email"
+                    autoComplete="off"
+                    required />
+<input type="number" name="mobile" placeholder="Mobile Number"
+                    autoComplete="off"
+                    required />                    
+
+                    <textarea name="massage" id="" cols="30" rows="10" required autoComplete="off" placeholder='Message'></textarea>
+                    <input type="submit" name="" value={"Send Message"} className='submit'/>
+                </form>
   )
 }
 

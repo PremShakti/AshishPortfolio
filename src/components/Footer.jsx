@@ -36,9 +36,9 @@ const Footer = () => {
         </SimpleGrid>
 
         <Flex w={'100%'} h={'80px'} align={'center'} justify={'center'} borderTop={'1px solid white'}>
-            <Flex w={'90%'} h={"65px"} align={'center'} justify={'center'} justifyContent={'space-between'} color={'white'} fontSize={'small'} >
+            <Flex w={'90%'} h={"65px"} align={'center'} justify={'center'} justifyContent={{base:'space-around',lg:'space-between'}} color={'white'} fontSize={'small'} >
             <Text>Copyright © 2023 <span style={{color:'green'}}>CoolBreeze Solutions .pvt ltd</span> </Text>
-            <Text>Designed by <span style={{color:'green'}}>Prem Shakti</span></Text>
+            <Text display={{base:"none",lg:"block"}} >Designed by <span style={{color:'green'}}>Prem Shakti</span></Text>
             </Flex>
         </Flex>
       

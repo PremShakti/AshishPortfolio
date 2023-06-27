@@ -18,9 +18,9 @@ const Home = () => {
         </Box>
         <Box bg={"#2171FF"} display={'flex'} alignItems={"center"} justifyContent={"center"} >
           <Box w={"70%"}  color={'white'} m={10}>
-           <Text as={"h2"} fontSize={30} fontWeight={'bold'}>Top AC Repair Service In Bhubaneswar & Cuttac</Text>
-           <Text lineHeight={6} mt={6} mb={7}>At Ecpret Ac Mechanical Services, our team of highly trained and dedicated specialists offer a100% statisfaction gurantee on all AC repair and servicing work.</Text>
-<Button bg={'#61CE70'} color={"white"} >Schedule Today</Button>
+           <Text as={"h2"} fontSize={30} fontWeight={'bold'}>Top AC Repair Service In Bhubaneswar & Cuttack</Text>
+           <Text lineHeight={6} mt={6} mb={7}>At Ecpret Ac Mechanical Services, our team of highly trained and dedicated specialists offer a100% statisfaction gurantee on all AC repair and servicing work.</Text> 
+    <a href="https://wa.me/7909077847?text=Hi Cool Breeze Solutions"><Button bg={'#61CE70'} color={"white"} >Schedule Today</Button></a> 
           </Box>
 
         </Box>
