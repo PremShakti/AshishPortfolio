@@ -10,7 +10,7 @@ const Card = ({title,src}) => {
       <Image src= {src}  />
          </Box>
        <Text as={'h2'} fontSize={20} color={'white'} fontWeight={'bold'} >{title}</Text>
-   <a href="https://wa.me/7909077847?text=Hi Cool Breeze Solutions"><Button bg={'black'} color='white' mt={5} >Book Now</Button></a> 
+   <a href="https://wa.me/8252332381?text=Hi OM Digital CCTV security services"><Button bg={'black'} color='white' mt={5} >Book Now</Button></a> 
       </Box>
     </Box>
   )

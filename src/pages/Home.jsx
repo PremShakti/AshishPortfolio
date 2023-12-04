@@ -14,18 +14,18 @@ const Home = () => {
     <div id='home'>
     <SimpleGrid columns={{base:1,lg:2}}>
         <Box>
-        <Image src='https://img.freepik.com/free-vector/air-conditioner-repair-repairman-with-tools_33099-272.jpg?w=740&t=st=1687801009~exp=1687801609~hmac=372bec63414c344e2622fec71bdb1a54c73ec10ae6255d896baa99a9f07e32ed'/>
+        <Image src='./tec.jpg'/>
         </Box>
         <Box bg={"#2171FF"} display={'flex'} alignItems={"center"} justifyContent={"center"} >
           <Box w={"70%"}  color={'white'} m={10}>
-           <Text as={"h2"} fontSize={30} fontWeight={'bold'}>Top AC Repair Service In Bhubaneswar & Cuttack</Text>
-           <Text lineHeight={6} mt={6} mb={7}>At Ecpret Ac Mechanical Services, our team of highly trained and dedicated specialists offer a100% statisfaction gurantee on all AC repair and servicing work.</Text> 
-    <a href="https://wa.me/7909077847?text=Hi Cool Breeze Solutions"><Button bg={'#61CE70'} color={"white"} >Schedule Today</Button></a> 
+           <Text as={"h2"} fontSize={30} fontWeight={'bold'}>Top CCTV Services In Dhanbad</Text>
+           <Text lineHeight={6} mt={6} mb={7}> Our team of highly trained and dedicated specialists offer 100% statisfaction gurantee on all CCTV services.</Text> 
+    <a href="https://wa.me/8252332381?text=Hi OM Digital CCTV security services"><Button bg={'#61CE70'} color={"white"} >Schedule Today</Button></a> 
           </Box>
 
         </Box>
     </SimpleGrid>
-    <Flex bg={'black'}pl={{base:"20px"}} pt={10} pb={10} color={'white'} align={'center'} justify={'center'} gap={5} fontSize={'larger'}><FiPhoneCall  /><Text fontWeight={'bold'}>Call Today For A Free Estimate +91-7909077847 </Text> </Flex>
+    <Flex bg={'black'}pl={{base:"20px"}} pt={10} pb={10} color={'white'} align={'center'} justify={'center'} gap={5} fontSize={'larger'}><FiPhoneCall  /><Text fontWeight={'bold'}>Call Today For A Free Estimate +91-9334092246 </Text> </Flex>
       
     </div>
   )
