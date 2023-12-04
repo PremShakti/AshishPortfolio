@@ -8,7 +8,7 @@ const Form = () => {
 
 
 
-<form action="https://formspree.io/f/xwkdeodj" method="POST" className="Cform">
+<form action="https://formspree.io/f/mknaagln" method="POST" className="Cform">
            <p>DROP A LINE</p>
                     <input type="text" placeholder="Your Name" name="username" id=""
                     required
